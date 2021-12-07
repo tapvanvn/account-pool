@@ -1,0 +1,7 @@
+{
+    "DocDB":{
+        "Provider":"mongodb",
+        "ConnectionString":"mongodb:/\/192.168.1.106:27017",
+        "DatabaseName":"accpool"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "campaign":{
+        "indexes":["campaign_name"]
+    },
+    "account":{
+        "indexes":["account_type", "account_id"]
+    }
+}

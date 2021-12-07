@@ -1,0 +1,7 @@
+{
+    "DocDB":{
+        "Provider":"", //mongodb, firestore
+        "ConnectionString":"",
+        "DatabaseName":"accpool"
+    }
+}
