@@ -44,9 +44,9 @@ func main() {
 
 	var handers = map[string]gorouter.EndpointDefine{
 
-		"":         {Handles: Handles{route.Root}},
-		"account":  {Handles: Handles{route.Account}},
-		"campaign": {Handles: Handles{route.Campaign}},
+		"":         {Handles: Handles{route.Cors, route.Root}},
+		"account":  {Handles: Handles{route.Cors, route.Account}},
+		"campaign": {Handles: Handles{route.Cors, route.Campaign}},
 	}
 
 	var router = gorouter.Router{}

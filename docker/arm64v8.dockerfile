@@ -19,6 +19,7 @@ RUN apk update \
         
 COPY --from=build               /src/accpool / 
 COPY static/                    /static
+COPY route.jsonc                /route.jsonc 
 
 ENV PORT=80
 
